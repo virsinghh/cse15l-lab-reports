@@ -25,3 +25,11 @@
 * Enter your password when prompted to do so
 * Next, log onto ieng6 again using ssh and use ls. You should be able to see the file you created on your machine.
 * run it using javac java. It should look like this:![Moving files](https://github.com/virsinghh/cse15l-lab-reports/blob/main/scp.png?raw=true)
+
+5. SSH keys
+* ssh keys essentially help us login without having to always enter our password.
+* On your machine type ssh-keygen in the terminal and hit enter for all the prompts that come up after. You should see your randomart: ![ssh-keygen](https://github.com/virsinghh/cse15l-lab-reports/blob/main/ssh-keygen%201.png?raw=true)
+* Log in to ieng6 using ssh again and run mkdir .ssh and then logout
+* Once you're back on the client, run the following command: scp /Users/<user-name>/.ssh/id_rsa.pub
+cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+* Use your username and the path seen above. It should look like this: ![ssh-keygen](https://github.com/virsinghh/cse15l-lab-reports/blob/main/ssh-keygen%202.png?raw=true)
