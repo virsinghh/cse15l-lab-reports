@@ -15,4 +15,11 @@
 * Once you do this, you should be able to see the following interaction:
 
 3. Trying some commands
-* 
+* Try running various basic commands like pwd, ls, mkdir etc.
+* Ensure that you try running these on both your machine and remotely on ieng6 after connecting via ssh.
+* Here is a sample of what the commands should look like: 
+
+4. Moving files with scp
+* Create a sample file on your computer to move using scp
+* Then, in your terminal, select the directory where you saved the file and run the following command: scp <filename> cs15lsp22zz@ieng6.ucsd.edu:~/
+  
