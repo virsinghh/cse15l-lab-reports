@@ -5,4 +5,4 @@
 1. Installing VScode
 * Go to the [Visual Studio code website](https://code.visualstudio.com/) and install the appropriate version for your OS.
 * Upon opening VScode, you should see a page that looks like this: 
-![Vscode opening page](https://photos.google.com/photo/AF1QipOULLdrmHdgFsMibknri5oIAtUH2WHLedKzjZcv)
+![Vscode opening page](https://photos.app.goo.gl/2LE2vfHHqajHfD9W6)
