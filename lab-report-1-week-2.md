@@ -22,4 +22,7 @@
 4. Moving files with scp
 * Create a sample file on your computer to move using scp
 * Then, in your terminal, select the directory where you saved the file and run the following command: scp <filename> cs15lsp22zz@ieng6.ucsd.edu:~/
-  
+* Enter your password when prompted to do so
+* Next, log onto ieng6 again using ssh and use ls. You should be able to see the file you created on your machine.
+* run it using javac java.
+
