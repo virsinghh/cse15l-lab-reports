@@ -7,4 +7,12 @@
 * Upon opening VScode, you should see a page that looks like this: 
 ![Vscode opening page](https://github.com/virsinghh/cse15l-lab-reports/blob/main/VScode%20opening.png?raw=true)
 
-2. 
+2. Remotely connecting
+* First, look up your course-specific account at this [Link](https://sdacs.ucsd.edu/~icc/index.php)
+* Next, open up a terminal in VScode and enter this command: $ ssh cs15lsp22zz@ieng6.ucsd.edu
+* Remember to replace the "zz" in the command with your course-specific account letters.
+* Type yes for the next message that pops up and press enter. Then, enter your password when prompted.
+* Once you do this, you should be able to see the following interaction:
+
+3. Trying some commands
+* 
